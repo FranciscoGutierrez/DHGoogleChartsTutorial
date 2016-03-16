@@ -82,7 +82,7 @@ Then, inside the body tag we need to place a few divs to indicate the place wher
 </html>
 ```
 
-Google Charts work with pure javascript, so now we can start working with the word cloud, inside an <script> tag after the header.
+Google Charts work with pure javascript, so now we can start working with the word cloud, inside an "script" tag after the header.
 ```html
 <!DOCTYPE html>
 <html>
