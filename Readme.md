@@ -2,13 +2,13 @@
 Google chart tools are a set of powerful, simple to use, and free libraries to create simple HTML, SVG visualisations. Due to its simplicity, Google charts are easy to combine into an interactive dashboard with other tools. Configure an extensive set of options to match the look and feel of your website.
 
 ## Contents
-- Before get started
-- Things you need.
-- Google Charts Overview
-- Tutorial: Word Clouds and Maps.
-- Word cloud
-- GeoMap
-- Assignment
+1. Before get started
+  1.1 Things you need.
+  1.2 Google Charts Overview
+2. Tutorial: Word Clouds and Maps.
+  2.1 - Word cloud
+  2.2 GeoMap
+3. Assignment
 
 ## Before get started
 - Things you need.
