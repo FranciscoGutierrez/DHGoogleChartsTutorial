@@ -23,7 +23,7 @@ For more information please go to: https://developers.google.com/chart/interacti
 
 # Tutorial: Word Clouds and Maps.
 
-When using Google charts, maps and word clouds can look very difficult to implement. In this tutorial we are going to use Google Charts to recreate the [Dogs Vs Cats](https://goo.gl/28jqms) visualisation, step by step.
+When using Google charts, maps and word clouds can seem difficult to implement. In this tutorial we are going to use Google Charts to recreate the [Dogs Vs Cats](https://goo.gl/28jqms) visualisation, step by step.
 
 <img src="1.png"/>
 
@@ -84,7 +84,7 @@ Then, inside the body tag we need to place a few divs to indicate the place wher
 </html>
 ```
 
-Google Charts work with pure javascript, so now we can start working with the word cloud, inside an "script" tag after the header.
+Google Charts work with pure javascript, so now we can start working with the word cloud, inside an **script** tag after the header.
 ```html
 <!DOCTYPE html>
 <html>
@@ -115,8 +115,8 @@ Google Charts work with pure javascript, so now we can start working with the wo
 </html>
 ```
 
-The google.load is a function that calls the packages we want to use in our visualization.
-The google.setOnLoadCallback(draw); will call a function “draw” that we will set to display our charts.
+The **google.load** is a function that calls the packages we want to use in our visualization.
+The **google.setOnLoadCallback(draw);** will call a function **draw** that we will set to display our charts.
 Now we can create our draw function to visualise the charts.
 ```html
 <!DOCTYPE html>
@@ -150,9 +150,7 @@ Now we can create our draw function to visualise the charts.
 </body>
 </html>
 ```
-
-
-The first thing we want to do is create a variable in javascript to store our data, with Google charts that can be achieved using the function new google.visualization.DataTable(); You can see this as a table where you can add rows and columns. We are going to add two columns and 10 rows for our word cloud.
+The first thing we want to do is create a variable in javascript to store our data, with Google charts that can be achieved using the function **new google.visualization.DataTable();** You can see this as a table where you can add rows and columns. We are going to add two columns and 10 rows for our word cloud.
 ```javascript
 data.addColumn('string', 'Label');
 data.addColumn('number', 'Value');
@@ -196,8 +194,7 @@ The result is the following:
 </body>
 </html>
 ```
-
-Now we can add some data to the visualization using the data.setValue(row,column, data);
+Now we can add some data to the visualization using the **data.setValue(row,column, data);**
 ```javascript
         data.setValue(0, 0, 'Florida');        data.setValue(0, 1, 4138);
         data.setValue(1, 0, 'California');     data.setValue(1, 1, 6865);
@@ -257,7 +254,7 @@ Now we have some data but our visualisation is still not working, we need to tel
 var wordcloud = document.getElementById('wordcloud');
 new TermCloud(wordcloud).draw(data);
 ```
-We can use getElementById to find our word cloud element inside <body> and then we can create the wordcloud using the draw function and passing the data.
+We can use **getElementById** to find our word cloud element inside **body** tag and then we can create the wordcloud using the draw function and passing the data.
 ```html
 <!DOCTYPE html>
 <html>
@@ -312,7 +309,7 @@ Now you should see something like this in your browser:
 
 To add the map to the visualisation we need to use the same approach, in this case with a different component from Google Charts.
 
-First we need to add the data, in this case we will use arrayToDataTable, which basically allow us to add a array of data to our visualisation. In this case we can see our data as two columns, the first is the state (location) and the second is the population (data),
+First we need to add the data, in this case we will use **arrayToDataTable**, which basically allow us to add a array of data to our visualisation. In this case we can see our data as two columns, the first is the state (location) and the second is the population (data),
 ```javascript
       var d = google.visualization.arrayToDataTable([
       ['State', 'Population'],
@@ -422,7 +419,7 @@ Then we can add the data to our visualization:
 </body>
 </html>
 ```
-Google Charts allows to add a set of options to every chart, this options allow you to manipulate the color, the size of your chart, display mode and many other things.  To know and understand how options work in each visualisation please check the documentation.
+Google Charts allows to add a set of options to every chart, this options allow you to manipulate the color, the size of your chart, display mode and many other things. To know and understand how options work in each visualisation please check the documentation.
 ```javascript
      var opts = {
         region: 'US',
