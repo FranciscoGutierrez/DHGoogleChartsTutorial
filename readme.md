@@ -15,7 +15,8 @@ Google chart tools are a set of powerful, simple to use, and free libraries to c
 - In this tutorial you will need basic knowledge of HTML, Javascript and CSS.
 - A text editor (Webstorm, Textwrangler, even feel free to use Jsbin).
 - A Web browser with internet access to test the visualisation and load the library.
-- Google Charts Overview
+
+## Google Charts Overview
 - Google charts is a big library that includes many tools to customize your visualizations and create personalized dashboards.
 
 For more information please go to: https://developers.google.com/chart/interactive/docs/quick_start
@@ -431,6 +432,7 @@ Google Charts allows to add a set of options to every chart, this options allow 
         colors: ['#0a521e', '#3c8d3d', '#bebebe', '#1f67a7', '#1c335c']
       };
 ```
+
 Let’s add this options to our code.
 ```html
 <!DOCTYPE html>
