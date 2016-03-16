@@ -418,9 +418,6 @@ Then we can add the data to our visualization:
 </body>
 </html>
 ```
-
-
-
 Google Charts allows to add a set of options to every chart, this options allow you to manipulate the color, the size of your chart, display mode and many other things.  To know and understand how options work in each visualisation please check the documentation.
 ```javascript
      var opts = {
@@ -658,24 +655,20 @@ Now the only thing we need to do is to tell to google charts where we want to vi
 </body>
 </html>
 ```
-
-
 Now you should see your map and word cloud.
-
-
 
 # 3. Assignment
 Now we have an HTML/JavaScript version of the Dogs Vs Cats visualisation.
 Finish the dashboard using CSS and HTML.
 Here you can find a solution for this tutorial: http://output.jsbin.com/nuxexa,  feel free to compare it with yours and customize your HTML/CSS as you wish.
 
-More Examples
-Barcharts: http://jsbin.com/howefe/1/edit?html,output
-Maps: http://jsbin.com/nibosi/1/edit?html,output
-Treemaps: http://jsbin.com/darozi/edit?html,output
-Word Clouds: http://jsbin.com/nifohay/2/edit?html,output
-Bubble Charts: http://jsbin.com/xobemo/edit?html,output
+## More Examples
+- Barcharts: http://jsbin.com/howefe/1/edit?html,output
+- Maps: http://jsbin.com/nibosi/1/edit?html,output
+- Treemaps: http://jsbin.com/darozi/edit?html,output
+- Word Clouds: http://jsbin.com/nifohay/2/edit?html,output
+- Bubble Charts: http://jsbin.com/xobemo/edit?html,output
 
-Other Javascript libraries
-ChartJs: http://www.chartjs.org/
-D3Js: https://d3js.org/
+## Other Javascript libraries
+- ChartJs: http://www.chartjs.org/
+- D3Js: https://d3js.org/
