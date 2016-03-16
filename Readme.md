@@ -25,6 +25,8 @@ For more information please go to: https://developers.google.com/chart/interacti
 
 When using Google charts, maps and word clouds can look very difficult to implement. In this tutorial we are going to use Google Charts to recreate the [Dogs Vs Cats](https://goo.gl/28jqms) visualisation, step by step.
 
+<img src="1.png"/>
+
 In your editor of preference create a HTML Document and write the basic structure of an HTML document:
 ```html
 <!DOCTYPE html>
@@ -306,6 +308,8 @@ We can use getElementById to find our word cloud element inside <body> and then 
 ```
 Now you should see something like this in your browser:
 
+<img src="2.png"/>
+
 To add the map to the visualisation we need to use the same approach, in this case with a different component from Google Charts.
 
 First we need to add the data, in this case we will use arrayToDataTable, which basically allow us to add a array of data to our visualisation. In this case we can see our data as two columns, the first is the state (location) and the second is the population (data),
@@ -541,7 +545,6 @@ Let’s add this options to our code.
 </html>
 ```
 
-
 Now the only thing we need to do is to tell to google charts where we want to visualize our map. Again we use the draw function.
 
 ```html
@@ -657,10 +660,14 @@ Now the only thing we need to do is to tell to google charts where we want to vi
 ```
 Now you should see your map and word cloud.
 
+<img src="3.png"/>
+
 # 3. Assignment
 Now we have an HTML/JavaScript version of the [Dogs Vs Cats](https://goo.gl/28jqms) visualisation.
 Finish the dashboard using CSS and HTML.
 Here you can find a solution for this tutorial: http://output.jsbin.com/nuxexa,  feel free to compare it with yours and customize your HTML/CSS as you wish.
+
+<img src="4.png"/>
 
 ## More Examples
 - Barcharts: http://jsbin.com/howefe/1/edit?html,output
