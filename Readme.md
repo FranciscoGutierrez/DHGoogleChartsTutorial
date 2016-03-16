@@ -3,11 +3,11 @@ Google chart tools are a set of powerful, simple to use, and free libraries to c
 
 ## Contents
 1. Before get started
-  1.1 Things you need.
-  1.2 Google Charts Overview
+1.1 Things you need.
+1.2 Google Charts Overview
 2. Tutorial: Word Clouds and Maps.
-  2.1 - Word cloud
-  2.2 GeoMap
+2.1 Word cloud
+2.2 GeoMap
 3. Assignment
 
 ## Before get started
