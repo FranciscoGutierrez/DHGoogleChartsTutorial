@@ -1,31 +1,31 @@
-Google Charts
+# Google Charts
 Google chart tools are a set of powerful, simple to use, and free libraries to create simple HTML, SVG visualisations. Due to its simplicity, Google charts are easy to combine into an interactive dashboard with other tools. Configure an extensive set of options to match the look and feel of your website.
 
-Contents
-Before get started
-Things you need.
-Google Charts Overview
-Tutorial: Word Clouds and Maps.
-Word cloud
-GeoMap
-Assignment
+## Contents
+-Before get started
+-Things you need.
+-Google Charts Overview
+-Tutorial: Word Clouds and Maps.
+-Word cloud
+-GeoMap
+-Assignment
 
-Before get started
-Things you need.
-In this tutorial you will need basic knowledge of HTML, Javascript and CSS.
-A text editor (Webstorm, Textwrangler, even feel free to use Jsbin).
-A Web browser with internet access to test the visualisation and load the library.
-Google Charts Overview
-Google charts is a big library that includes many tools to customize your visualizations and create personalized dashboards.
+## Before get started
+- Things you need.
+- In this tutorial you will need basic knowledge of HTML, Javascript and CSS.
+- A text editor (Webstorm, Textwrangler, even feel free to use Jsbin).
+- A Web browser with internet access to test the visualisation and load the library.
+- Google Charts Overview
+- Google charts is a big library that includes many tools to customize your visualizations and create personalized dashboards.
 
 For more information please go to: https://developers.google.com/chart/interactive/docs/quick_start
 
-Tutorial: Word Clouds and Maps.
+# Tutorial: Word Clouds and Maps.
 
 When using Google charts, maps and word clouds can look very difficult to implement. In this tutorial we are going to use Google Charts to recreate the Dogs Vs Cats visualisation, step by step.
 
 In your editor of preference create a HTML Document and write the basic structure of an HTML document:
-´´´javascript
+```html
 <!DOCTYPE html>
 <html>
 <head>
@@ -37,11 +37,11 @@ In your editor of preference create a HTML Document and write the basic structur
 
 </body>
 </html>
-´´´
+```
 
 
 To import the libraries write the following:
-´´´javascript
+```html
 <!DOCTYPE html>
 <html>
 
@@ -53,13 +53,13 @@ To import the libraries write the following:
 <body>
 </body>
 </html>
-´´´
+```
 
 
 This will indicate to our browser to load the word cloud and basic charts library.
 Then, inside the body tag we need to place a few divs to indicate the place where we want to display our charts:
 
-
+```html
 <!DOCTYPE html>
 <html>
 
@@ -79,11 +79,10 @@ Then, inside the body tag we need to place a few divs to indicate the place wher
 
 </body>
 </html>
-
-
+```
 
 Google Charts work with pure javascript, so now we can start working with the word cloud, inside an <script> tag after the header.
-
+```html
 <!DOCTYPE html>
 <html>
 
@@ -111,14 +110,12 @@ Google Charts work with pure javascript, so now we can start working with the wo
 
 </body>
 </html>
-
-
-
+```
 
 The google.load is a function that calls the packages we want to use in our visualization.
 The google.setOnLoadCallback(draw); will call a function “draw” that we will set to display our charts.
 Now we can create our draw function to visualise the charts.
-
+```html
 <!DOCTYPE html>
 <html>
 
@@ -149,17 +146,18 @@ Now we can create our draw function to visualise the charts.
 
 </body>
 </html>
-
+```
 
 
 The first thing we want to do is create a variable in javascript to store our data, with Google charts that can be achieved using the function new google.visualization.DataTable(); You can see this as a table where you can add rows and columns. We are going to add two columns and 10 rows for our word cloud.
-
+```javascript
 data.addColumn('string', 'Label');
 data.addColumn('number', 'Value');
 data.addRows(10);
+```
 
 The result is the following:
-
+```html
 <!DOCTYPE html>
 <html>
 
@@ -194,18 +192,17 @@ The result is the following:
 
 </body>
 </html>
-
-
+```
 
 Now we can add some data to the visualization using the data.setValue(row,column, data);
-
+```javascript
         data.setValue(0, 0, 'Florida');        data.setValue(0, 1, 4138);
         data.setValue(1, 0, 'California');     data.setValue(1, 1, 6865);
         data.setValue(2, 0, 'Texas');          data.setValue(2, 1, 5265);
 ...
-
+```
 Let’s add some data:
-
+```html
 <!DOCTYPE html>
 <html>
 
@@ -250,17 +247,15 @@ Let’s add some data:
 
 </body>
 </html>
-
-
-
+```
 Now we have some data but our visualisation is still not working, we need to tell to Google Charts where we want to put this.
 
-
+```javascript
 var wordcloud = document.getElementById('wordcloud');
 new TermCloud(wordcloud).draw(data);
-
+```
 We can use getElementById to find our word cloud element inside <body> and then we can create the wordcloud using the draw function and passing the data.
-
+```html
 <!DOCTYPE html>
 <html>
 
@@ -307,25 +302,22 @@ We can use getElementById to find our word cloud element inside <body> and then 
 
 </body>
 </html>
-
-
-
+```
 Now you should see something like this in your browser:
-
 
 To add the map to the visualisation we need to use the same approach, in this case with a different component from Google Charts.
 
 First we need to add the data, in this case we will use arrayToDataTable, which basically allow us to add a array of data to our visualisation. In this case we can see our data as two columns, the first is the state (location) and the second is the population (data),
-
+```javascript
       var d = google.visualization.arrayToDataTable([
       ['State', 'Population'],
       ['Texas', -1598],
       ['California', 431],
       ['Kansas', -43],
       ['Iowa', 195]]);
-
+```
 Then we can add the data to our visualization:
-
+```html
 <!DOCTYPE html>
 <html>
 
@@ -424,12 +416,12 @@ Then we can add the data to our visualization:
 
 </body>
 </html>
-
+```
 
 
 
 Google Charts allows to add a set of options to every chart, this options allow you to manipulate the color, the size of your chart, display mode and many other things.  To know and understand how options work in each visualisation please check the documentation.
-
+```javascript
      var opts = {
         region: 'US',
         displayMode: 'regions',
@@ -438,9 +430,9 @@ Google Charts allows to add a set of options to every chart, this options allow 
         height: 380,
         colors: ['#0a521e', '#3c8d3d', '#bebebe', '#1f67a7', '#1c335c']
       };
-
+```
 Let’s add this options to our code.
-
+```html
 <!DOCTYPE html>
 <html>
 
@@ -548,12 +540,12 @@ Let’s add this options to our code.
 
 </body>
 </html>
-
+```
 
 
 Now the only thing we need to do is to tell to google charts where we want to visualize our map. Again we use the draw function.
 
-
+```html
 <!DOCTYPE html>
 <html>
 
@@ -663,14 +655,14 @@ Now the only thing we need to do is to tell to google charts where we want to vi
 
 </body>
 </html>
-
+```
 
 
 Now you should see your map and word cloud.
 
 
 
-3. Assignment
+# 3. Assignment
 Now we have an HTML/JavaScript version of the Dogs Vs Cats visualisation.
 Finish the dashboard using CSS and HTML.
 Here you can find a solution for this tutorial: http://output.jsbin.com/nuxexa,  feel free to compare it with yours and customize your HTML/CSS as you wish.
