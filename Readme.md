@@ -23,7 +23,7 @@ For more information please go to: https://developers.google.com/chart/interacti
 
 # Tutorial: Word Clouds and Maps.
 
-When using Google charts, maps and word clouds can look very difficult to implement. In this tutorial we are going to use Google Charts to recreate the Dogs Vs Cats visualisation, step by step.
+When using Google charts, maps and word clouds can look very difficult to implement. In this tutorial we are going to use Google Charts to recreate the [Dogs Vs Cats](https://goo.gl/28jqms) visualisation, step by step.
 
 In your editor of preference create a HTML Document and write the basic structure of an HTML document:
 ```html
@@ -658,7 +658,7 @@ Now the only thing we need to do is to tell to google charts where we want to vi
 Now you should see your map and word cloud.
 
 # 3. Assignment
-Now we have an HTML/JavaScript version of the Dogs Vs Cats visualisation.
+Now we have an HTML/JavaScript version of the [Dogs Vs Cats](https://goo.gl/28jqms) visualisation.
 Finish the dashboard using CSS and HTML.
 Here you can find a solution for this tutorial: http://output.jsbin.com/nuxexa,  feel free to compare it with yours and customize your HTML/CSS as you wish.
 
