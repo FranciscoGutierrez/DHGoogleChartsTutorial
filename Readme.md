@@ -32,8 +32,8 @@ In your editor of preference create a HTML Document and write the basic structur
 <!DOCTYPE html>
 <html>
 <head>
-<link rel="stylesheet" type="text/css" href="http://visapi-gadgets.googlecode.com/svn/trunk/termcloud/tc.css" />
-  <script type="text/javascript" src="http://visapi-gadgets.googlecode.com/svn/trunk/termcloud/tc.js"></script>
+<link rel="stylesheet" type="text/css" href="termcloud/tc.css" />
+  <script type="text/javascript" src="termcloud/tc.js"></script>
   <script type="text/javascript" src="http://www.google.com/jsapi"></script>
 </head>
 <body>
@@ -49,8 +49,8 @@ To import the libraries write the following:
 <html>
 
 <head>
-<link rel="stylesheet" type="text/css" href="http://visapi-gadgets.googlecode.com/svn/trunk/termcloud/tc.css" />
-  <script type="text/javascript" src="http://visapi-gadgets.googlecode.com/svn/trunk/termcloud/tc.js"></script>
+<link rel="stylesheet" type="text/css" href="termcloud/tc.css" />
+  <script type="text/javascript" src="termcloud/tc.js"></script>
   <script type="text/javascript" src="http://www.google.com/jsapi"></script>
 </head>
 <body>
@@ -67,8 +67,8 @@ Then, inside the body tag we need to place a few divs to indicate the place wher
 <html>
 
 <head>
-<link rel="stylesheet" type="text/css" href="http://visapi-gadgets.googlecode.com/svn/trunk/termcloud/tc.css" />
-  <script type="text/javascript" src="http://visapi-gadgets.googlecode.com/svn/trunk/termcloud/tc.js"></script>
+<link rel="stylesheet" type="text/css" href="termcloud/tc.css" />
+  <script type="text/javascript" src="termcloud/tc.js"></script>
   <script type="text/javascript" src="http://www.google.com/jsapi"></script>
 </head>
 <body>
@@ -90,8 +90,8 @@ Google Charts work with pure javascript, so now we can start working with the wo
 <html>
 
 <head>
-<link rel="stylesheet" type="text/css" href="http://visapi-gadgets.googlecode.com/svn/trunk/termcloud/tc.css" />
-  <script type="text/javascript" src="http://visapi-gadgets.googlecode.com/svn/trunk/termcloud/tc.js"></script>
+<link rel="stylesheet" type="text/css" href="termcloud/tc.css" />
+  <script type="text/javascript" src="termcloud/tc.js"></script>
   <script type="text/javascript" src="http://www.google.com/jsapi"></script>
 </head>
 
@@ -123,7 +123,7 @@ Now we can create our draw function to visualise the charts.
 <html>
 
 <head>
-  <script type="text/javascript" src="http://visapi-gadgets.googlecode.com/svn/trunk/termcloud/tc.js"></script>
+  <script type="text/javascript" src="termcloud/tc.js"></script>
   <script type="text/javascript" src="http://www.google.com/jsapi"></script>
 </head>
 
@@ -163,8 +163,8 @@ The result is the following:
 <html>
 
 <head>
-<link rel="stylesheet" type="text/css" href="http://visapi-gadgets.googlecode.com/svn/trunk/termcloud/tc.css" />
-  <script type="text/javascript" src="http://visapi-gadgets.googlecode.com/svn/trunk/termcloud/tc.js"></script>
+<link rel="stylesheet" type="text/css" href="termcloud/tc.css" />
+  <script type="text/javascript" src="termcloud/tc.js"></script>
   <script type="text/javascript" src="http://www.google.com/jsapi"></script>
 </head>
 
@@ -207,8 +207,8 @@ Let’s add some data:
 <html>
 
 <head>
-<link rel="stylesheet" type="text/css" href="http://visapi-gadgets.googlecode.com/svn/trunk/termcloud/tc.css" />
-  <script type="text/javascript" src="http://visapi-gadgets.googlecode.com/svn/trunk/termcloud/tc.js"></script>
+<link rel="stylesheet" type="text/css" href="termcloud/tc.css" />
+  <script type="text/javascript" src="termcloud/tc.js"></script>
   <script type="text/javascript" src="http://www.google.com/jsapi"></script>
 </head>
 
@@ -260,8 +260,8 @@ We can use **getElementById** to find our word cloud element inside **body** tag
 <html>
 
 <head>
-<link rel="stylesheet" type="text/css" href="http://visapi-gadgets.googlecode.com/svn/trunk/termcloud/tc.css" />
-  <script type="text/javascript" src="http://visapi-gadgets.googlecode.com/svn/trunk/termcloud/tc.js"></script>
+<link rel="stylesheet" type="text/css" href="termcloud/tc.css" />
+  <script type="text/javascript" src="termcloud/tc.js"></script>
   <script type="text/javascript" src="http://www.google.com/jsapi"></script>
 </head>
 
@@ -324,8 +324,8 @@ Then we can add the data to our visualization:
 <html>
 
 <head>
-<link rel="stylesheet" type="text/css" href="http://visapi-gadgets.googlecode.com/svn/trunk/termcloud/tc.css" />
-  <script type="text/javascript" src="http://visapi-gadgets.googlecode.com/svn/trunk/termcloud/tc.js"></script>
+<link rel="stylesheet" type="text/css" href="termcloud/tc.css" />
+  <script type="text/javascript" src="termcloud/tc.js"></script>
   <script type="text/javascript" src="http://www.google.com/jsapi"></script>
 </head>
 
@@ -437,8 +437,8 @@ Let’s add this options to our code.
 <html>
 
 <head>
-<link rel="stylesheet" type="text/css" href="http://visapi-gadgets.googlecode.com/svn/trunk/termcloud/tc.css" />
-  <script type="text/javascript" src="http://visapi-gadgets.googlecode.com/svn/trunk/termcloud/tc.js"></script>
+<link rel="stylesheet" type="text/css" href="termcloud/tc.css" />
+  <script type="text/javascript" src="termcloud/tc.js"></script>
   <script type="text/javascript" src="http://www.google.com/jsapi"></script>
 </head>
 
@@ -549,8 +549,8 @@ Now the only thing we need to do is to tell to google charts where we want to vi
 <html>
 
 <head>
-<link rel="stylesheet" type="text/css" href="http://visapi-gadgets.googlecode.com/svn/trunk/termcloud/tc.css" />
-  <script type="text/javascript" src="http://visapi-gadgets.googlecode.com/svn/trunk/termcloud/tc.js"></script>
+<link rel="stylesheet" type="text/css" href="termcloud/tc.css" />
+  <script type="text/javascript" src="termcloud/tc.js"></script>
   <script type="text/javascript" src="http://www.google.com/jsapi"></script>
 </head>
 
