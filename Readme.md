@@ -670,7 +670,7 @@ Here you can find a solution for this tutorial: http://output.jsbin.com/nuxexa, 
 - Barcharts: http://jsbin.com/howefe/1/edit?html,output
 - Maps: http://jsbin.com/nibosi/1/edit?html,output
 - Treemaps: http://jsbin.com/darozi/edit?html,output
-- Word Clouds: http://jsbin.com/nifohay/2/edit?html,output
+- Word Clouds: http://jsbin.com/nifohay/edit?html,css,js,output
 - Bubble Charts: http://jsbin.com/xobemo/edit?html,output
 
 ## Other Javascript libraries
