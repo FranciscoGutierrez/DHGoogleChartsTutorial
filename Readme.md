@@ -28,6 +28,9 @@ When using Google charts, maps and word clouds can seem difficult to implement. 
 <img src="1.png"/>
 
 In your editor of preference create a HTML Document and write the basic structure of an HTML document:
+
+Important: You will need termcloud library, which you can find it in this repository.
+
 ```html
 <!DOCTYPE html>
 <html>
